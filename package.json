@@ -21,5 +21,21 @@
   "dependencies": {
     "lit": "^2.7.6",
     "throttle-debounce": "^5.0.0"
-  }
+  },
+  "description": "This component is a simple method to lazy load images from a source set similar to responsive images. The component calculates the rendered image width and then fetches the optimal image.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsCornegoor/lazy-image-webcomponent.git"
+  },
+  "keywords": [
+    "lazyloading",
+    "webcomponent",
+    "imageloader"
+  ],
+  "author": "Mats Cornegoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsCornegoor/lazy-image-webcomponent/issues"
+  },
+  "homepage": "https://github.com/MatsCornegoor/lazy-image-webcomponent#readme"
 }
