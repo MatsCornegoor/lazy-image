@@ -3,6 +3,6 @@ import {lazyImages} from './lazyImages.js'
 
 
 lazyImages({
-    sections: true,
+    // sections: true,
 });
 

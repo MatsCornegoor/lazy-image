@@ -4,14 +4,20 @@ import { debounce } from 'throttle-debounce';
 export class LazyImage extends LitElement {
 
     static styles = css`
+
         :host {
-            display: block;
+            display: flex;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
         }
 
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
             opacity: 0;
-            transition: 1s;
+            transition: 0.2s;
         }
 
     `;
