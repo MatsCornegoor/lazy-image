@@ -9,7 +9,10 @@ Install the component using npm.
 ```
 npm install lazy-image-webcomponent --save
 ```
-
+Add to main.js
+```
+import {lazyImages} from './lazyImages.js'
+```
 
 ## Init
 We will use the Intersection Observer API to track all individual components and check if they reach the viewport.
